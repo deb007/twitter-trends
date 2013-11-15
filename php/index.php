@@ -31,6 +31,7 @@ echo "<pre>";
 $opts   = array();
 $str    = '';
 
+/*
  $opts = array(
     'host'    => 'localhost',
     'user'    => 'root',
@@ -38,6 +39,15 @@ $str    = '';
     'db'      => 'twitter-trends',
     'charset' => 'latin1'
  );
+ */
+ $opts = array(
+    'host'    => 'localhost',
+    'user'    => 'admineICUhCy',
+    'pass'    => 'XxAYNyQtg_up',
+    'db'      => 'twitter',
+    'charset' => 'latin1'
+ );
+
  $db = new SafeMySQL($opts);
 
  foreach ($arr_trends[0]['trends'] as $key => $valuearr) {
