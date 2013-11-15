@@ -1,0 +1,13 @@
+web1: #component type & number
+  name: twittertrends            #component settings
+  php_version: 5.4.14
+  php_extensions:
+    - mysql
+    - mysqli
+    - gd
+    - curl
+      
+cache1:
+  name: sessions
+  type: memcached
+    
